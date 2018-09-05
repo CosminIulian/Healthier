@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="132dp"
+        android:background="@color/home_nav"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:fontFamily="sans-serif" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/welcomeTv"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/smiley_face" />
+
+</RelativeLayout>

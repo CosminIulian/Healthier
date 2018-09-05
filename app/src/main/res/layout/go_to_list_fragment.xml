@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/go_to_list_background"
+    android:gravity="center">
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/goToListBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:background="@drawable/button_style"
+        android:text="Lista Alimente"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/foodsIv1"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignTop="@+id/goToListBtn"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/food1" />
+
+    <ImageView
+        android:id="@+id/foodsIv2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/goToListBtn"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/food2" />
+
+    <ImageView
+        android:id="@+id/foodsIv3"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignBottom="@+id/goToListBtn"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/food3" />
+
+    <ImageView
+        android:id="@+id/foodsIv4"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignEnd="@+id/goToListBtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/food4" />
+
+</RelativeLayout>

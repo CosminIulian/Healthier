@@ -1,0 +1,356 @@
+<resources>
+
+    <string name="app_name"> Healthier </string>
+
+    <string name="author">
+          Created and designed by Cosmin Iulian\n
+           (Click the text for more details)
+    </string>
+
+    <string name="welcome">
+        \"Un organism sănătos este camera de oaspeţi a sufletului, un organism bolnav, o închisoare.\"\n– Francis Bacon
+    </string>
+
+    <string name="calculator"> Calculeaza-ti greutatea ideala aici: </string>
+
+    <string-array name="alimentsName">
+
+        <item>Ou</item>
+        <item>Carne de vita</item>
+        <item>Branza</item>
+        <item>Peste</item>
+        <item>Mar</item>
+        <item>Cartof</item>
+        <item>Lapte</item>
+        <item>Carne de curcan</item>
+        <item>Carne de miel si de oaie</item>
+        <item>Iaurt</item>
+        <item>Banana</item>
+
+    </string-array>
+
+    <string-array name="calories">
+
+        <item>155,1 kcal</item>
+        <item>250,5 kcal</item>
+        <item>402 kcal</item>
+        <item>205,8 kcal</item>
+        <item>52,1 kcal</item>
+        <item>76,7 kcal</item>
+        <item>42,3 kcal</item>
+        <item>188,8 kcal</item>
+        <item>294 kcal</item>
+        <item>58,8 kcal</item>
+        <item>88,7 kcal</item>
+
+    </string-array>
+
+    <string-array name="descriptionAliments">
+
+        <item>
+              Valori nutriționale ou:\n\n
+
+              Valoare per: 100 g \n
+              Calorii (kcal): 155 \n
+              Lipide totale: 11 g \n
+              \t\t -Lipide saturate 3,3 g \n
+              \t\t -Lipide polinesaturate 1,4 g \n
+              \t\t -Lipide mononesaturate 4,1 g \n
+              Colesterol: 373 mg \n
+              Sodiu: 124 mg \n
+              Potasiu: 126 mg \n
+              Carbohidrați: 1,1 g \n
+              \t\t-Fibre alimentare 0 g \n
+              \t\t-Zahăr 1,1 g \n
+              Proteine: 13 g \n\n
+
+              Vitamina A: 520 IU \n
+              Vitamina C: 0 mg \n
+              Calciu: 50 mg \n
+              Fier: 1,2 mg \n
+              Vitamina D: 87 IU \n
+              Vitamina B6: 0,1 mg \n
+              Vitamina B-12: 1,1 µg \n
+              Magneziu: 10 mg \n
+
+
+        </item>
+
+        <item>
+            Valori nutriționale carne de vită:\n\n
+
+            Valoare per: 100 g \n
+            Calorii (kcal): 250 \n
+            Lipide totale: 15 g	\n
+            \t\t-Lipide saturate 6 g \n
+            \t\t-Lipide polinesaturate 0,5 g \n
+            \t\t-Lipide mononesaturate 7 g \n
+            \t\t-Lipide trans 1,1 g \n
+            Colesterol 90 mg \n
+            Sodiu 72 mg \n
+            Potasiu 318 mg \n
+            Carbohidrați 0 g \n
+            \t\t-Fibre alimentare 0 g \n
+            \t\t-Zahăr 0 g \n
+            Proteine 26 g \n\n
+
+            Vitamina A:      0 IU \n
+            Vitamina C:    0 mg \n
+            Calciu:         18 mg \n
+            Fier:        2,6 mg \n
+            Vitamina D:	     7 IU \n
+            Vitamina B6: 0,4 mg \n
+            Vitamina B-12: 2,6 µg \n
+            Magneziu:     21 mg \n
+        </item>
+
+        <item>
+            Valori nutriționale brânză:\n\n
+
+            Valoare per 100 g \n
+            Calorii (kcal) 402 \n
+            Lipide totale 33 g \n
+            \t\t-Lipide saturate 21 g \n
+            \t\t-Lipide polinesaturate 0,9 g \n
+            \t\t-Lipide mononesaturate 9 g \n
+            Colesterol 105 mg \n
+            Sodiu 621 mg \n
+            Potasiu 98 mg \n
+            Carbohidrați 1,3 g \n
+            \t\t-Fibre alimentare 0 g \n
+            \t\t-Zahăr 0,5 g	\n
+            Proteine 25 g \n\n
+
+            Vitamina A	1.002 IU \n
+            Vitamina C	0 mg \n
+            Calciu	721 mg \n
+            Fier	0,7 mg \n
+            Vitamina D	24 IU \n
+            Vitamina B6	0,1 mg \n
+            Vitamina B-12	0,8 µg \n
+            Magneziu	28 mg \n
+
+        </item>
+
+        <item>
+            Valori nutriționale peşte: \n\n
+
+            Valoare per 100 g \n
+            Calorii (kcal) 205 \n
+            Lipide totale 12 g	\n
+            \t\t-Lipide saturate 2,5 g \n
+            \t\t-Lipide polinesaturate 4,4 g \n
+            \t\t-Lipide mononesaturate 4,4 g	\n
+            Colesterol 63 mg \n
+            Sodiu 61 mg	\n
+            Potasiu 384 mg \n
+            Carbohidrați 0 g \n
+            \t\t-Fibre alimentare 0 g \n
+            Proteine 22 g \n\n
+
+            Vitamina A	50 IU \n
+            Vitamina C	3,7 mg \n
+            Calciu	15 mg \n
+            Fier	0,3 mg \n
+            Vitamina D	0% \n
+            Vitamina B6	0,6 mg \n
+            Vitamina B-12	2,8 µg \n
+            Magneziu	30 mg \n
+        </item>
+
+        <item>
+            Valori nutriționale măr:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 52\n
+            Lipide totale 0,2 g\n
+            \t\t-Lipide saturate 0 g\n
+            \t\t-Lipide polinesaturate 0,1 g\n
+            \t\t-Lipide mononesaturate 0 g\n
+            Colesterol 0 mg\n
+            Sodiu 1 mg\n
+            Potasiu 107 mg\n
+            Carbohidrați 14 g\n
+            \t\t-Fibre alimentare 2,4 g\n
+            \t\t-Zahăr 10 g\n
+            Proteine 0,3 g\n
+            Vitamina A	54 IU\n\n
+            Vitamina C	4,6 mg\n
+            Calciu	6 mg\n
+            Fier	0,1 mg\n
+            Vitamina D	0 IU\n
+            Vitamina B6	0 mg\n
+            Vitamina B-12	0 µg\n
+            Magneziu	5 mg\n
+        </item>
+
+        <item>
+             Valori nutriționale cartof:\n\n
+
+             Valoare per 100 g\n
+             Calorii (kcal) 76\n
+             Lipide totale 0,1 g\n
+             \t\t-Lipide saturate 0 g\n
+             \t\t-Lipide polinesaturate 0 g\n
+             \t\t-Lipide mononesaturate 0 g\n
+             Colesterol 0 mg\n
+             Sodiu 6 mg\n
+             Potasiu 421 mg\n
+             Carbohidrați 17 g\n
+             \t\t-Fibre alimentare 2,2 g\n
+             \t\t-Zahăr 0,8 g\n
+             Proteine 2 g\n\n
+
+             Vitamina A	2 IU\n
+             Vitamina C	19,7 mg\n
+             Calciu	12 mg\n
+             Fier	0,8 mg\n
+             Vitamina D	0 IU\n
+             Vitamina B6	0,3 mg\n
+             Vitamina B-12	0 µg\n
+             Magneziu	23 mg\n
+        </item>
+
+        <item>
+            Valori nutriționale lapte:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 42\n
+            Lipide totale 1 g\n
+            \t\t-Lipide saturate 0,6 g\n
+            \t\t-Lipide polinesaturate 0 g\n
+            \t\t-Lipide mononesaturate 0,3 g\n
+            Colesterol 5 mg\n
+            Sodiu 44 mg\n
+            Potasiu 150 mg\n
+            Carbohidrați 5 g\n
+            \t\t-Fibre alimentare 0 g\n
+            \t\t-Zahăr 5 g\n
+            Proteine 3,4 g\n\n
+
+            Vitamina A	47 IU
+            Vitamina C	0 mg\n
+            Calciu	125 mg\n
+            Fier	0 mg\n
+            Vitamina D	1 IU\n
+            Vitamina B6	0 mg\n
+            Vitamina B-12	0,5 µg\n
+            Magneziu	11 mg\n
+        </item>
+
+        <item>
+            Valori nutriționale carne de curcan:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 188\n
+            Lipide totale 7 g	\n
+            \t\t-Lipide saturate 2,2 g\n
+            \t\t-Lipide polinesaturate 2,1 g\n
+            \t\t-Lipide mononesaturate 2,6 g	\n
+            \t\t-Lipide trans 0,1 g	\n
+            Colesterol 109 mg	\n
+            Sodiu 103 mg	\n
+            Potasiu 239 mg	\n
+            Carbohidrați 0,1 g\n
+            \t\t-Fibre alimentare 0 g\n
+            \t\t-Zahăr 0 g	\n
+            Proteine 29 g\n\n
+
+            Vitamina A	39 IU\n
+            Vitamina C	0 mg\n
+            Calciu	14 mg	\n
+            Fier	1,1 mg\n
+            Vitamina D	15 IU\n
+            Vitamina B6	0,6 mg\n
+            Vitamina B-12	1 µg\n
+            Magneziu	30 mg\n
+        </item>
+
+        <item>
+            Valori nutriționale carne de miel și de oaie:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 294\n
+            Lipide totale 21 g	\n
+            \t\t-Lipide saturate 9 g	\n
+            \t\t-Lipide polinesaturate 1,5 g\n
+            \t\t-Lipide mononesaturate 9 g	\n
+            Colesterol 97 mg	\n
+            Sodiu 72 mg	\n
+            Potasiu 310 mg\n
+            Carbohidrați 0 g\n
+            \t\t-Fibre alimentare 0 g\n
+            \t\t-Zahăr 0 g	\n
+            Proteine 25 g\n\n
+
+            Vitamina A	0 IU\n
+            Vitamina C	0 mg\n
+            Calciu	17 mg	\n
+            Fier	1,9 mg\n
+            Vitamina D	2 IU\n
+            Vitamina B6	0,1 mg\n
+            Vitamina B-12	2,6 µg\n
+            Magneziu	23 mg\n
+        </item>
+
+        <item>
+            Valori nutriționale iaurt:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 58\n
+            Lipide totale 0,4 g\n
+            \t\t-Lipide saturate 0,1 g\n
+            \t\t-Lipide polinesaturate 0 g\n
+            \t\t-Lipide mononesaturate 0,1 g\n
+            \t\t-Lipide trans 0 g	\n
+            Colesterol 5 mg	\n
+            Sodiu 36 mg	\n
+            Potasiu 141 mg\n
+            Carbohidrați 3,6 g\n
+            \t\t-Fibre alimentare 0 g\n
+            \t\t-Zahăr 3,2 g	\n
+            Proteine 10 g\n\n
+
+            Vitamina A	4 IU\n
+            Vitamina C	0 mg\n
+            Calciu	110 mg\n
+            Fier	0,1 mg\n
+            Vitamina D	0 IU\n
+            Vitamina B6	0,1 mg\n
+            Vitamina B-12	0,8 µg\n
+            Magneziu	11 mg\n
+        </item>
+
+        <item>
+            Valori nutriționale banană:\n\n
+
+            Valoare per 100 g\n
+            Calorii (kcal) 88\n
+            Lipide totale 0,3 g	\n
+            \t\t-Lipide saturate 0,1 g\n
+            \t\t-Lipide polinesaturate 0,1 g\n
+            \t\t-Lipide mononesaturate 0 g	\n
+            Colesterol 0 mg	\n
+            Sodiu 1 mg	\n
+            Potasiu 358 mg\n
+            Carbohidrați 23 g\n
+            \t\t-Fibre alimentare 2,6 g\n
+            \t\t-Zahăr 12 g	\n
+            Proteine 1,1 g\n\n
+
+            Vitamina A	64 IU\n
+            Vitamina C	8,7 mg\n
+            Calciu	5 mg\n
+            Fier	0,3 mg\n
+            Vitamina D	0 IU\n
+            Vitamina B6	0,4 mg\n
+            Vitamina B-120 µg\n
+            Magneziu	27 mg\n
+        </item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

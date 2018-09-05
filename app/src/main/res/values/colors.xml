@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#07889B</color>
+    <color name="colorPrimaryDark">#E37222</color>
+    <color name="colorAccent">#EEAA7B</color>
+    <color name="colorBackgroundLayout">#66B9BF</color>
+    <color name="home_nav">#4c787b</color>
+    <color name="list_nav">#0096a7</color>
+    <color name="calc_nav">#1b6886</color>
+    <color name="info_nav">#0197a8</color>
+</resources>
