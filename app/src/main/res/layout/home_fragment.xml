@@ -24,7 +24,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_height="126dp"
         android:layout_above="@+id/welcomeTv"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/smiley_face" />
