@@ -6,20 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".AuthorDetails"
     android:gravity="center"
-    android:background="@drawable/author_background"
-    >
+    android:background="@drawable/author_background">
 
     <TextView
-        android:gravity="center"
         android:id="@+id/authorTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="189dp"
+        android:gravity="center"
         android:text="@string/author"
         android:textColor="#ffffff"
         android:textSize="25sp"
+        android:textStyle="italic"
         app:fontFamily="sans-serif"
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="245dp" />
