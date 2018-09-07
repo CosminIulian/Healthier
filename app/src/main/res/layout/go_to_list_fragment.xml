@@ -19,37 +19,12 @@
         android:textColor="#ffffff" />
 
     <ImageView
-        android:id="@+id/foodsIv1"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_alignTop="@+id/goToListBtn"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/food1" />
-
-    <ImageView
-        android:id="@+id/foodsIv2"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/goToListBtn"
-        android:layout_marginTop="105dp"
-        app:srcCompat="@drawable/food2" />
-
-    <ImageView
         android:id="@+id/foodsIv3"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_alignBottom="@+id/goToListBtn"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/food3" />
-
-    <ImageView
-        android:id="@+id/foodsIv4"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_alignEnd="@+id/goToListBtn"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        app:srcCompat="@drawable/food4" />
+        app:srcCompat="@drawable/food3" />
 
 </RelativeLayout>
