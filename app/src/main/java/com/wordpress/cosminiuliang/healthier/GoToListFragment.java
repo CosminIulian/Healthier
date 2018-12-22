@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 public class GoToListFragment extends Fragment {
@@ -23,6 +25,10 @@ public class GoToListFragment extends Fragment {
             goToListBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Animation animation = AnimationUtils.loadAnimation(getActivity()
+                            .getBaseContext().getApplicationContext(), R.anim.fadein);
+                    goToListBtn.startAnimation(animation);
+
                     Intent intent = new Intent(getActivity(), ListAliments.class);
                     startActivity(intent);
                 }

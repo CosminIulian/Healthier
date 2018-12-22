@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 
@@ -28,6 +30,10 @@ public class InformationFragment extends Fragment {
         proteineBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Animation animation = AnimationUtils.loadAnimation(getActivity()
+                        .getBaseContext().getApplicationContext(), R.anim.fadein);
+                proteineBtn.startAnimation(animation);
+
                 String proteineSite =
                         "https://ro.wikipedia.org/wiki/Protein%C4%83";
 
@@ -42,6 +48,10 @@ public class InformationFragment extends Fragment {
         caloriiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Animation animation = AnimationUtils.loadAnimation(getActivity()
+                        .getBaseContext().getApplicationContext(), R.anim.fadein);
+                caloriiBtn.startAnimation(animation);
+
                 String caloriiSite =
                         "https://ro.wikipedia.org/wiki/Calorie";
 
@@ -55,6 +65,10 @@ public class InformationFragment extends Fragment {
         carbohidratiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Animation animation = AnimationUtils.loadAnimation(getActivity()
+                        .getBaseContext().getApplicationContext(), R.anim.fadein);
+                carbohidratiBtn.startAnimation(animation);
+
                 String carbohidratiSite =
                         "https://ro.wikipedia.org/wiki/Glucid%C4%83";
 

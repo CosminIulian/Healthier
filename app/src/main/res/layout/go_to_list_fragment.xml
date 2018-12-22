@@ -7,7 +7,6 @@
     android:gravity="center">
 
     <Button
-        android:gravity="center"
         android:id="@+id/goToListBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="183dp"
         android:background="@drawable/button_style"
+        android:gravity="center"
         android:text="Lista Alimente"
         android:textColor="#ffffff" />
 
