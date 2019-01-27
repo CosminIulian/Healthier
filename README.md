@@ -1,5 +1,5 @@
 # Healthier
-An android app for healthy foods and to calculate the ideal weight.
+An android app for healthy foods and to calculate the ideal weight
 
 # Screenshots
 <img src="https://i.imgur.com/O2FtAYv.png"/>
